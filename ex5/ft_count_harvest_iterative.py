@@ -8,6 +8,6 @@ def ft_count_harvest_iterative():
         if days < 0:
             print("Invalid Argument: Negative")
             continue
-        for i in range(days + 1):
+        for i in range(1, days + 1):
             print(f"Day {i}")
         break
